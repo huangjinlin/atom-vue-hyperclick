@@ -1,10 +1,10 @@
 {
-  "name": "vue-hyperclick",
+  "name": "atom-vue-hyperclick",
   "main": "./lib/vue-hyperclick",
   "version": "0.2.0",
   "description": "A hyperclick provider for Vue components that lets you jump to where variables are defined.",
   "keywords": [],
-  "repository": "https://github.com/monterail/atom-vue-hyperclick",
+  "repository": "https://github.com/huangjinlin/atom-vue-hyperclick",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -25,5 +25,8 @@
   "devDependencies": {
     "eslint": "^3.7.0"
   },
-  "package-deps": ["language-vue", "js-hyperclick"]
+  "package-deps": [
+    "language-vue",
+    "atom-js-hyperclick"
+  ]
 }
